@@ -124,5 +124,10 @@
 ### 2.5 single linked lists
 **An example to understanding linked lists**
 	
-	One example would be maintaining a list of students who are waiting to register for a course. Instead of having the students waiting in actual line, you can give each student a number, which is the students position in te line. if someone drops out of the line, everyone with a higher number of the student that dropped gets a new number that is reduced by 1. If someone cuts into the line because they "need the course to graduate," everyone after this person gets a new number, which is one higher than before. The person maintaining the list is responsible for giving everyone their new number after a change.  
+One example would be maintaining a list of students who are waiting to register for a course. Instead of having the students waiting in actual line, you can give each student a number, which is the students position in te line. if someone drops out of the line, everyone with a higher number of the student that dropped gets a new number that is reduced by 1. If someone cuts into the line because they "need the course to graduate," everyone after this person gets a new number, which is one higher than before. The person maintaining the list is responsible for giving everyone their new number after a change. 
 
+A better way to do this would be to give each person the name of the next person in line, instead of his or her own position in the line (which can change frequently) to start the registration process the person who is registering students calls the person who is at the head of the line. After he or she finishes registration, the person at the head of the line cals the next person, and so on.
+
+### A list node
+- A node is a data strucutre that contains a data item and one or more links. 
+- A link is a reference to a node
